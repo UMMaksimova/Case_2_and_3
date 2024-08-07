@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер изображений</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение основного CSS файла -->
+    <link rel="stylesheet" href="2.css"> <!-- Исправлено: используем <link> для подключения CSS -->
+</head>
+<body>
+    <div class="slider">
+        <div class="slider-images">
+            <img src="image1.jpg" alt="Изображение 1" class="active">
+            <img src="image2.jpg" alt="Изображение 2">
+            <img src="image3.jpg" alt="Изображение 3">
+            <img src="image4.jpg" alt="Изображение 4">
+            <img src="image5.jpg" alt="Изображение 5">
+        </div>
+        <div class="slider-controls">
+            <button id="prev">Назад</button>
+            <button id="next">Вперед</button>
+        </div>
+        <div class="slider-status">
+            <span id="status">Изображение 1 из 5</span>
+        </div>
+    </div>
+    
+    <script src="3.js"></script> <!-- Подключение JavaScript файла -->
+</body>
+</html>
